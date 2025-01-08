@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <fieldset>
+        <legend>User Information</legend>
+        <form>
+            <label for="firstname">First Name</label>
+            <br /> 
+            <input type="text" placeholder="First Name" id="firstname" minlength="5" maxlength="15" required>
+            <br /><br />
+            <label for="lastname">Last Name</label>
+            <br />
+            <input type="text" placeholder="Last Name" id="lastname">
+            <br /><br />
+            <label for="emailAddress">Email Address</label>
+            <br />
+            <input type="email" placeholder="Email Address" id="emailAddress" required>
+            <br /><br />
+            <label for="phone">Phone</label>
+            <br />
+            <input type="number" placeholder="Phone" id="phone">
+            <br /><br />
+            <label for="password">Password</label>
+            <br />
+            <input type="password" placeholder="Password" id="password">
+            <br /><br />
+            <label for="">Gender</label>
+            <br /> 
+            <label for="male">
+                Male 
+                <input type="radio" name="gender" id="male" checked>
+            </label>
+            <label for="female">
+                Female 
+                <input type="radio" name="gender" id="female">
+            </label>
+            <label for="other">
+                Other 
+                <input type="radio" name="gender" id="other">
+            </label>
+            <br /><br />
+            <label for="">Hobbies</label>
+            <br />
+            <label for="booksReading">
+                Books Reading 
+                <input type="checkbox" name="hobbies" id="booksReading">
+            </label>
+            <label for="sketching">
+                Sketching 
+                <input type="checkbox" name="hobbies" id="sketching">
+            </label>
+            <label for="painting">
+                Painting 
+                <input type="checkbox" name="hobbies" id="painting">
+            </label>
+            <label for="games">
+                Games 
+                <input type="checkbox" name="hobbies" id="games" checked>
+            </label>
+            <br /><br />
+            <label for="">Country</label>
+            <br />
+            <select name="" id="">
+                <option value="" disabled selected>Select Country</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="India">India</option>
+                <option value="Nepal">Nepal</option>
+            </select>
+            <br /><br />
+            <textarea cols="30" rows="5"></textarea>
+            <br /><br />
+
+            <!-- <input type="file" accept=".pdf">  -->
+            <input type="file"> 
+
+            <br /><br />
+
+            <!-- <input type="submit"> -->
+             <button>Submit</button>
+        </form>
+    </fieldset>
+</body>
+</html>

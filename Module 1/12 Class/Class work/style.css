@@ -1,0 +1,108 @@
+.para{
+    font-weight: bold;
+    font-style: italic;
+    color: purple;
+}
+
+.para{
+    color: blue;
+}
+
+.spanPara{
+    color: red;
+    /* text-decoration: underline double black; */ /*Bootom line*/
+    /* text-decoration: line-through black; */ /*Center Line*/
+    text-decoration: overline black; /*Top line*/
+    
+    text-transform: uppercase;
+    /* text-transform: lowercase; */
+    text-transform: capitalize;
+    
+}
+
+.para{
+    line-height: 25px;/*Height Space between two line*/
+    word-spacing: 20px;/*Space between two words*/
+    letter-spacing: 3px;/*Space between two letters*/
+}
+
+.spanPara {
+    letter-spacing: 10px;
+}
+
+.heading{
+    background-color: orange;
+    text-align: left;
+    text-align: center;
+    /* text-align: right; */
+    /* text-align: justify; */
+}
+
+.para2{
+    font-weight: bold;
+    font-size: 32px;
+    /*Usually we give muliple font-family.if 1st not supoort by browser then it go to 2nd and if 2nd not support
+    by browser then it go to 3rd and if 3rd is not support by browser then it is use VS Code default font-family*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading2{
+    text-align: center;
+    text-shadow: 100px 5px 10px red;
+    text-shadow: -10px 5px 1px blue;
+    /*1 value (if postitive then Left to Right  and if negative then Right to Left)*/
+    /*2 value (if postitive then Top to Bottom and if negative then Botton to Top)*/
+    /*3 value for Blur*/
+    /*4 Value for color*/
+}
+
+/* Psceudo Elements */
+.para3::before{
+    content: 'Muhammad Hassan';
+    
+}
+
+.para3::after{
+    content: 'Muhammad Yousuf';
+    
+}
+
+.para3::first-letter{
+    color: red;
+    font-size: 32px;
+}
+
+.para3::first-line{
+    color: blue;
+}
+
+a:visited{
+    color: orange;
+}
+
+a{
+    color: red;
+}
+
+.btn{
+    border: none;
+    background-color: blue;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: grey;
+}
+
+input:focus {
+    background-color: grey;
+    outline: lightcoral;
+}
+
+#link {
+    text-decoration: none;
+}
+
+#link:hover {
+    text-decoration: underline;
+}

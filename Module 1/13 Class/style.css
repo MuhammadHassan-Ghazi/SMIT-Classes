@@ -1,0 +1,127 @@
+
+.heading1{
+    background-color: lightgreen;
+    /*width in px: Absolute value. If parent container size less than given px, then it will show remaining content 
+    outside of its parent container*/
+    /* width: 310px; */
+
+    /*width in % : it will take given percent width of its parent container*/
+    /* width: 50%; */
+
+    /*height in px: Absolute value. If parent container size less than given px, then it will show remaining content 
+    outside of its parent container*/
+    height: 220px;
+
+    /*max-width : if parent container size less than given px, then it will convert into 100% width of its 
+    parent container*/
+    max-width: 500px;
+    /*min-width : if parent container size less than given px, then it will show scroll*/
+    min-width: 300px;
+}
+
+.box1{
+    background-color: lightgreen;
+    max-width: 600px;
+    min-width: 400px;
+
+    /*If content increase from given px, then remaining content will over-flow*/
+    max-height: 100px;
+
+    /*By default show on given px , but if content increase height increase auto */
+    /* min-height: 50px; */
+
+    /*To hide over-flow content*/
+    /* overflow-y: hidden; */
+
+    /*To show scroll on over-flow content*/
+    /* overflow-y: scroll; */
+
+    /*To show scroll on over-flow content if content is not over-flow then scroll line hide*/
+    overflow-y: auto;
+}
+
+
+.box2{
+    background-color: red;
+    width: 500px;
+
+    /*Padding space inside the container*/
+
+    /*All 4 sides same*/
+    /* padding: 50px; */
+
+    /*1st is top&bottom and 2nd is left &right*/
+    /* padding: 20px 10px; */
+
+    /*It apply clock wise (top - right - bottom - left)*/
+    /* padding: 50px 60px 70px 80px; */
+
+    /*Seperate padding give way for all 4 sides*/
+    padding-left: 100px;
+    padding-right: 110px;
+    padding-top: 120px;
+    padding-bottom: 130px;
+
+
+    /*Margin space outside the container*/
+
+    /*All 4 sides same*/
+    /* margin: 50px; */
+
+    /*1st is top&bottom and 2nd is left &right*/
+    /* margin: 40px 10px; */
+
+    /*It apply clock wise (top - right - bottom - left)*/
+    /* margin: 50px 60px 70px 80px; */
+
+    /*Seperate margin give way for all 4 sides*/
+    margin-left: 100px;
+    margin-right: 110px;
+    margin-top: 120px;
+    margin-bottom: 130px;
+}
+
+.heading2{
+    background-color: orange;
+    /* width: 75%; */
+    text-align: center;
+}
+
+.box3{
+    background-color: blue;
+    width: 50%;
+
+    /*Two show container in centre use mergin-left and mergin-right auto*/
+    /* margin-left: auto;
+    margin-right: auto; */
+
+    /*Another way*/ 
+    margin: 0px auto;
+
+    /**To give border of container*/
+    border: 2px solid red;
+
+    /*To curve border*/
+    border-radius: 20px;
+
+    /*For circle*/
+    width:250px;
+    height: 250px;
+    border-radius: 50%;   
+}
+
+.box4{
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    /* it will remove some properties working */
+    /* display: inline;  */
+    display: inline-block;
+}
+
+.box5{
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}

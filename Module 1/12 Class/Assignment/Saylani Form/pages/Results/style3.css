@@ -1,0 +1,172 @@
+body{
+    margin-top: 0px;
+}
+#divheader{
+    text-align: center;
+    /* background-color: hsl(0, 0%, 83%); */
+    /* background-color: rgba(0, 0, 0,0.1); */
+    background-color: rgba(0,155,255,0.1);
+    margin-left: 120px;
+    width: 1100px;
+}
+#divheader 
+#imagelogo{
+            width: 250px;
+            height: 70px;
+}
+
+#divheader 
+#divsubHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#divheader 
+#divsubHeader
+.imageWebsites{
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+}
+
+#divheader 
+#divsubHeader
+h1{
+    margin-left: 150px;
+}
+
+#divheader 
+#divsubHeader
+button{
+    border: 1px solid rgb(9, 125, 179);
+    border-radius: 100px;
+    color: rgb(9, 125, 179);
+    margin-left: 180px;
+    width: 130px;
+    height: 30px;
+}
+
+#divheader p{
+    margin-bottom: 5px;
+}
+
+#divheader 
+#divsubHeader2{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#divheader 
+#divsubHeader2
+#RegistrationButton{
+    width: 100px;
+    height: 40px;
+    border: 1px solid hsl(0, 0%, 83%);
+    background-color: hsl(0, 0%, 99%);
+    color: rgb(9, 125, 179);
+    cursor: pointer;
+}
+#divheader 
+#divsubHeader2
+#DownloadButton{
+    width: 130px;
+    height: 40px;
+    margin-left: 3px;
+    border: 1px solid hsl(0, 0%, 83%);
+    background-color: hsl(0, 0%, 99%);
+    color:  rgb(9, 125, 179);
+    cursor: pointer;
+}
+#divheader 
+#divsubHeader2
+#ResultsButton{
+    width: 100px;
+    height: 40px;
+    margin-left: 3px;
+    border-bottom: none;
+    border-top: 1px solid hsl(0, 0%, 83%);
+    border-left: 1px solid hsl(0, 0%, 83%);
+    border-right: 1px solid hsl(0, 0%, 83%);
+    background-color: white;
+    color: rgb(31, 175, 31);
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    /* color: rgb(9, 125, 179);
+    width: 100%;
+    height: 100%; */
+}
+a:focus{
+    color: black;
+}
+
+
+#divheader 
+#divsubHeader2
+#blankbutton1{
+    width: 415px;
+    height: 40px;
+    border-top: 1px solid hsl(0, 0%, 83%);
+    border-left: 1px solid hsl(0, 0%, 83%);
+    border-bottom: 1px solid hsl(0, 0%, 83%);
+    border-right: none;
+    background-color: hsl(0, 0%, 99%);
+}
+#divheader 
+#divsubHeader2
+#blankbutton2{
+    width: 350px;
+    height: 40px;
+    border-top: 1px solid hsl(0, 0%, 83%);
+    border-right: 1px solid hsl(0, 0%, 83%);
+    border-bottom: 1px solid hsl(0, 0%, 83%);
+    border-left: none;
+    background-color: hsl(0, 0%, 99%);
+}
+
+#divForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#divForm
+form
+input{
+    width: 550px;
+    height: 50px;
+    border: 1px solid rgb(31, 175, 31);
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#divForm
+form
+input:focus{
+    /* border: 0.1px solid; */
+    outline-color:rgb(9, 125, 179);
+}
+
+#divForm
+form
+label{
+    /* color: rgba(52, 52, 230, 0.719); */
+    color: rgb(9, 125, 179);
+}
+
+#divForm
+form
+button{
+    color: white;
+    background-color: rgb(9, 125, 179);
+    width: 554px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}

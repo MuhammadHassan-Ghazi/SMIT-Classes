@@ -1,0 +1,68 @@
+/* Type Selector */
+/* h1{
+    color: red;
+    background-color: black;
+} */
+
+/* Id Selector */
+/* #heading1{
+color: red;
+background-color: black;
+} */
+
+/* Class Selector */
+/* .heading{
+    color: red;
+    background-color: blue;
+} */
+
+/* Universal Selector */
+/* *{
+    color: red;
+} */
+
+/* Multi Selector */
+/* #heading, p{
+    color: red;
+    background-color: orange;
+} */
+
+/*Types to give Colour*/
+h1{
+    /*Colour Name*/
+    /* color: black; */
+
+    /*Color Hex Code*/ /*# is mandatory for Hex Code*/
+    color: #000;
+    /* background-color: #32a88d; */
+
+    /*Color RGB*//*rgb range 0 to 255*/
+    color: rgb(0,0,0);
+    background-color: rgb(50, 168, 141);
+
+    /* rgba (red,green,blue,alpha)  alpha means opacity (transparency). Its range is between 0 to 1*/
+    color: rgba(0, 0, 0, 1);
+    background-color: rgba(0,155,255,0.1);
+
+}
+
+h2{
+    color: black;
+    background-color: orange;
+    /*Opacity range 0 to 1*/
+    opacity: 0.5;/*will apply on whole element means will apply on both font and on background*/
+}
+
+p.textHeading {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 100px;
+    /* text-decoration: underline; */
+    /* text-decoration: underline dashed orange; */
+    /* text-decoration: underline double orange; */
+    text-decoration: underline wavy orange;
+}
+
+a{
+    text-decoration: none;
+}

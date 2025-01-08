@@ -1,0 +1,275 @@
+body{
+    margin-top: 0px;
+}
+#divheader{
+    text-align: center;
+    /* background-color: hsl(0, 0%, 83%); */
+    /* background-color: rgba(0, 0, 0,0.1); */
+    background-color: rgba(0,155,255,0.1);
+    margin-left: 120px;
+    width: 1100px;
+}
+#divheader 
+#imagelogo{
+            width: 250px;
+            height: 70px;
+}
+
+#divheader 
+#divsubHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#divheader 
+#divsubHeader
+.imageWebsites{
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+}
+
+#divheader 
+#divsubHeader
+h1{
+    margin-left: 150px;
+}
+
+#divheader 
+#divsubHeader
+button{
+    border: 1px solid blue;
+    border-radius: 100px;
+    color: blue;
+    margin-left: 180px;
+    width: 130px;
+    height: 30px;
+}
+
+#divheader p{
+    margin-bottom: 5px;
+}
+
+#divheader 
+#divsubHeader2{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#divheader 
+#divsubHeader2
+#RegistrationButton{
+    width: 100px;
+    height: 40px;
+    border-bottom: none;
+    border-top: 1px solid hsl(0, 0%, 83%);
+    border-left: 1px solid hsl(0, 0%, 83%);
+    border-right: 1px solid hsl(0, 0%, 83%);
+    background-color: white;
+    color: rgb(75, 240, 75);
+    cursor: pointer;
+}
+#divheader 
+#divsubHeader2
+#DownloadButton{
+    width: 130px;
+    height: 40px;
+    margin-left: 3px;
+    border: 1px solid hsl(0, 0%, 83%);
+    background-color: hsl(0, 0%, 99%);
+    /* color:  rgb(60, 13, 189); */
+    color:rgb(9, 125, 179);
+    cursor: pointer;
+}
+#divheader 
+#divsubHeader2
+#ResultsButton{
+    width: 100px;
+    height: 40px;
+    margin-left: 3px;
+    border: 1px solid hsl(0, 0%, 83%);
+    background-color: hsl(0, 0%, 99%);
+    /* color: rgb(60, 13, 189); */
+    color:rgb(9, 125, 179);
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    /* color:rgb(9, 125, 179); */
+    /* width: 100%;
+    height: 100%; */
+}
+
+a:focus{
+    color: black;
+}
+
+#divheader 
+#divsubHeader2
+#blankbutton1{
+    width: 415px;
+    height: 40px;
+    border-top: 1px solid hsl(0, 0%, 83%);
+    border-left: 1px solid hsl(0, 0%, 83%);
+    border-bottom: 1px solid hsl(0, 0%, 83%);
+    border-right: none;
+    background-color: hsl(0, 0%, 99%);
+}
+#divheader 
+#divsubHeader2
+#blankbutton2{
+    width: 350px;
+    height: 40px;
+    border-top: 1px solid hsl(0, 0%, 83%);
+    border-right: 1px solid hsl(0, 0%, 83%);
+    border-bottom: 1px solid hsl(0, 0%, 83%);
+    border-left: none;
+    background-color: hsl(0, 0%, 99%);
+}
+
+#divbody{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    /* margin-left: 180px;
+    width: 1100px; */
+}
+/* 
+#divbody
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+} */
+
+#divsubbody1,#divsubbody2,#divsubbody3,#divsubbody4,#divsubbody5,#divsubbody6{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+#divbody
+form
+input{
+    width: 460px;
+    height: 50px;
+    border: 1px solid rgb(31, 175, 31);
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#divbody
+form
+select{
+    width: 465px;
+    height: 50px;
+    border: 1px solid rgb(31, 175, 31);
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#divbody
+form
+input:focus ,select:focus{
+    /* border: 0.1px solid; */
+    outline-color: rgb(9, 125, 179);
+}
+
+#divbody
+form
+#divsubbody7
+input{
+    width: 99%;
+    height: 50px;
+    border: 1px solid rgb(31, 175, 31);
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#divbody
+form
+#divsubbody8
+select,
+#divbody
+form
+#divsubbody9
+select
+{
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgb(31, 175, 31);
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#divbody
+form
+#divsubbody7
+input:focus,
+#divbody
+form
+#divsubbody8
+select,
+#divbody
+form
+#divsubbody9
+select{
+    outline-color: rgb(9, 125, 179);
+}
+
+#divbody
+form
+#divsubbody10
+input{
+    border: none;
+    width: 200px;
+}
+
+#divbody
+form
+#divsubbody10
+#spanbody14
+p{
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+#divbody
+form
+#divsubbody10{
+    display: flex;
+}
+
+#divbody
+form
+label{
+    /* color: rgba(52, 52, 230, 0.719); */
+    color: rgb(9, 125, 179);
+    /* margin-top: 10px; */
+}
+
+#spanbody2,#spanbody4,#spanbody6,#spanbody8,#spanbody10,#spanbody12{
+    margin-left: 30px;
+}
+
+#divsubbody11 ol li{
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+#divsubbody12 button{
+    color: white;
+    background-color: rgb(9, 125, 179);
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}

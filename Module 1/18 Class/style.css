@@ -1,0 +1,65 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+p {
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+
+.colorh1{
+    background: linear-gradient(red,green);
+    color: transparent;
+    background-clip: text;
+}
+
+.facebookIcon {
+    color: blue;
+    font-size: 32px;
+}
+
+.whatsappIcon{
+    /* background-color: green; */
+    color: green;
+    font-size: 32px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* .container {
+    background-color: red;
+    font-size: 84px;
+    width: 500px;
+} */
+
+/* h1{
+    color: blue;
+    width: 500px;
+    background-color: yellow;
+} */
+
+/* @media only screen and (max-width:400px) {
+    .container{
+        background-color: green;
+        font-size: 32px;
+        width: 100%;
+    }
+
+    h1{
+        color: red;
+        background-color: purple;
+    }
+} */
+
+/* @media only screen  and (max-width:200px){
+    .container{
+        background-color: blue;
+        font-size: 24px;
+    }
+
+    h1{
+        color: green;
+        background-color: orange;
+    }
+} */
+

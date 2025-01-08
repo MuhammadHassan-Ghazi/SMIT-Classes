@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box1{
+    background-color: red;
+    width: 200px;
+    /*To stop shrink on small size. By default flex-shrink:1*/
+    flex-shrink: 0;
+    /*If we give order to any child , we must have to give order in all childs*/
+    /* order: 3; */
+}
+
+.box2{
+    background-color: green;
+    width: 200px;
+    flex-shrink: 0;
+    /* order:2; */
+}
+
+.box3{
+    background-color: blue;
+    width: 200px;
+    flex-shrink: 0;
+    /* order: 1; */
+}
+
+.box4{
+    background-color: purple;
+    width: 200px;
+    flex-shrink: 0;
+    /* order: 1; */
+}
+
+.container{
+    display: flex;
+    /*-- x-axis align / Horizontal align --*/
+    /*By default its on justify-content: start*/
+    /* justify-content: start; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* justify-content: end; */
+
+
+    background-color: lightskyblue;
+    /* height: 500px; */
+    min-height: 50vh;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    /*if screen size small then childs will adjust accordingly, Child will be in next line . 
+    By default flex-wrap: nowrap;*/
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+}
+
+
+.newParent {
+    background-color: lightskyblue;
+    display: flex;
+    min-height: 100vh;
+    /* align-items: baseline; */
+
+    /*flex-direction: row  (if we dont give flext direction, so flex box default direction is row )
+    align-item for Vertical
+    justify-content for Horizontal*/
+
+    /* flex-direction: row; */
+    /* align-items: center; */
+    /* justify-content: space-evenly; */
+
+    /*flex-direction: row-reverse (reverse child items and start from right)
+    align-item for Vertical
+    justify-content for Horizontal*/
+
+    /* flex-direction: row-reverse; */
+    /* align-items: center; */
+    /* justify-content: space-evenly; */
+
+    /*flex-direction: column (show column wise)
+    align-item for Horizontal
+    justify-content for Vertical*/
+
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+
+    /*flex-direction: column-rever (show column wise but reverse child items and start from bottom)
+    align-item for Horizontal
+    justify-content for Vertical*/
+
+    flex-direction: column-reverse;   
+    align-items: center;
+    /* justify-content: space-between; */
+    justify-content: flex-end;/*from start*/
+    justify-content: flex-start;/*from end*/
+}
+
+.box10 {
+    background-color: green;
+    /* flex: 1; */
+}
+
+.box20 {
+    background-color: purple;
+    /* flex: 2; */
+    /* align-self: center; */
+}
+
+
+.box30 {
+    background-color: blue;
+    /* flex: 1; */
+    /* align-self: end; */
+}
+
+.header{
+    width: 80%;
+    background-color: #ECECED;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+
+.logo{
+    text-align: center;
+}
+
+.headingContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items:stretch;
+    flex-wrap: wrap-reverse;
+    
+}
+
+.websiteslink img{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+}
+
+.heading{
+    text-align: center;
+}
+
+.btnportal {
+    padding: 8px 20px;
+    border-radius: 20px;
+    border: 1px solid #0D6DB7;
+    background-color: transparent;
+    color: #0D6DB7;
+}
+
+
+.text{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+.navBtns{
+    display: flex;
+    justify-content: center;
+}
+
+.navBtns{
+    border: 1px solid lightgrey; 
+    width: 80%;
+    margin: 0px auto;
+}
+
+.navBtns button {
+    padding: 10px;
+    background-color: white;
+    /* border: 1px solid lightgrey; */
+}
+
+.btnsignup{
+    border: 1px solid lightgrey; 
+    border-bottom: none;
+}
+
+.btnIDCard{
+    border: 1px solid lightgrey;
+    margin-left: 2px; 
+}
+
+.btnresult{
+    border: 1px solid lightgrey; 
+    margin-left: 2px; 
+}
+
+.formContainer{
+    width: 80%;
+    margin: 10px auto;
+    /* border: 1px solid black; */
+}
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.inputContainer input{
+    padding: 16px;
+    border: 1px solid green;
+    border-radius: 8px;
+    outline: none;
+}
+
+.row1 {
+        display: flex;
+    width: 80%;
+    margin: 0 auto;
+    gap: 20px;
+    margin-top: 20px;   
+    flex-wrap: wrap;
+    /* border: 1px solid black;  */
+}

@@ -1,0 +1,20 @@
+git scm intall
+
+git status
+
+git init
+git add . =>track
+git config --global user.email "YOUR EMAIL" One time
+git config --global user.name "YOUR NAME" One time
+
+git commit -m"YOUR MESSAGE"
+git remote add origin repo_url
+git push origin master/main
+
+
+Deploy & Hosting
+
+Vercel
+Netlify
+
+Signup and login with Github
