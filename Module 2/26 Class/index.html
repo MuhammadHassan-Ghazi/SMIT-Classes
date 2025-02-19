@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- onclick -->
+
+    <!-- href="#" will work but add # in URL -->
+    <!-- <a href="#" onclick="foo()">LINK</a> -->
+
+    <!-- if we want to apply any event in anchor tag we should set javascript:void(0) in href -->
+    <!-- <a href="javascript:void(0)" onclick="foo()">LINK</a> -->
+
+    <!-- we can call function from any tag -->
+    <!-- <button onclick="foo()">CIICK!</button>
+    <p onclick="foo()">PARA 1</p> -->
+
+    <!-- onmouseenter event (on hover of element)-->
+    <!-- onmouseout event (on leave of element)-->
+
+    <!-- <div
+      class="box10"
+      onmouseenter="mouseEnter()"
+      onmouseout="mouseOut()"
+    ></div> -->
+
+    <!-- <p id="paraElement">
+      Lorem ipsum dolor sit amet.
+      <a href="javascript:void(0)" onclick="seeMore()">See more</a>
+    </p> -->
+    
+    <!-- <a href="javascript:void(0)" onclick="seeLess()">See Less</a> -->
+
+    <img src="./images/car1.jpg" id="carImage" width="300" height="200" alt="" />
+
+    <button onclick="bigImage()" >Big Image</button>
+    <button onclick="changeImage()" >Change Image</button>
+
+</body>
+<script src="./app.js"></script>
+</html>
