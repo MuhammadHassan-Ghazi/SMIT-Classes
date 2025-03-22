@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <button onclick="greet()">Greet</button> -->
+    <input type="text" id="userName" placeholder="Enter username" />
+    <button onclick="getInputValue()">Submit</button>
+    <button onclick="setInputValue()">Set Value</button>
+
+    <hr><hr><hr>
+
+    <p id="para">Lorem ipsum dolor sit amet.</p>
+    <button onclick="getParaValue()">GET VALUE</button>
+    <button onclick="setParaValue()">SET VALUE</button>
+
+    <br>
+     <!-- onclick
+        ondblclick
+        onmouseenter
+        onmouseout    
+    -->
+
+    <img
+      src="./images/car1.jpg"
+      onmouseenter="changImage()"
+      onmouseout="mouseOutImage()"
+      width="400"
+      height="300"
+      alt=""
+      id="img"
+    />
+    <br>
+    
+    <img
+      src="./images/bulbOff.jpg"
+      id="bulbImg"
+      width="300"
+      height="400"
+      alt=""
+    />
+    <button onclick="bulbOn()">ON</button>
+    <button onclick="bulbOff()">OFF</button>
+
+    <br>
+
+    <input type="text"  id="name" placeholder="Enter Your Name" />
+    <button onclick="onSubmit()">SUBMIT</button>
+</body>
+<script src="./app.js"></script>
+</html>
